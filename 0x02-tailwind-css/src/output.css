@@ -195,6 +195,12 @@
   .table {
     display: table;
   }
+  .h-64 {
+    height: calc(var(--spacing) * 64);
+  }
+  .h-auto {
+    height: auto;
+  }
   .min-h-screen {
     min-height: 100vh;
   }
@@ -212,6 +218,9 @@
   }
   .w-2\/3 {
     width: calc(2/3 * 100%);
+  }
+  .w-full {
+    width: 100%;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -283,6 +292,9 @@
   }
   .bg-yellow-200 {
     background-color: var(--color-yellow-200);
+  }
+  .object-cover {
+    object-fit: cover;
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
